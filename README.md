@@ -1,11 +1,5 @@
 # Slack dark theme injector tool
-This tool writes a dark theme to the Slack desktop application.
-Dark theme was taken from the generated [Dark Reader](https://darkreader.org)
-theme that was applied when I visited the web version of slack, like so:
-```
-Array.from(document.querySelectorAll('.darkreader')).map((n) => n.textContent).join('\n');
-
-```
+This tool writes a dark theme to the Slack desktop application. This is a modification of [LostConnection's dark slack theme](https://github.com/LostConnection/makeitdark).
 
 ### Preview:
 
@@ -37,15 +31,10 @@ python makeitdark.py
 ```
 ### Sidebar
 
-Add [this sidebar theme](https://slackthemes.net/#/custom#333336,2e2e31,666668,ffffff,277df6,d7d5d4,277df6,277df6) which kinda makes it look like Mojave dark mode:
+Add this sidebar theme:
 ```
-#333336,#2e2e31,#666668,#ffffff,#277df6,#d7d5d4,#277df6,#277df6
+#000000,#444444,#333333,#FFFFFF,#444444,#FFFFFF,#9cbc73,#cc807c
 ```
-Or add [this sidebar theme](https://slackthemes.net/#/custom#17181c,252525,A36B31,D2D6D6,5C6380,DEDEDE,ADBA4E,DB6668) for more consistency:
-```
-#17181c,#252525,#A36B31,#D2D6D6,#5C6380,#DEDEDE,#ADBA4E,#DB6668
-```
-You can fiddle around with custom sidebar themes at https://slackthemes.net
 
 ### Reverting
 
@@ -60,10 +49,9 @@ When Slack updates it will overwrite the installed dark theme. When this happens
 
 ## Authors
 
-* **James Szklarz** - *Initial work* - [LostConnection](https://github.com/LostConnection)
-* **Andrew Hayworth** - *Darkreader updates* - [ahayworth](https://github.com/ahayworth)
+* **Adam Nelson** - *Theme customization* - [adamnel](https://github.com/adamnel)
 
-See also the list of [contributors](https://github.com/LostConnection/makeitdark/contributors) who participated in this project.
+Original [contributors](https://github.com/LostConnection/makeitdark/contributors) who participated in this project.
 
 ## License
 

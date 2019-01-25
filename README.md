@@ -35,6 +35,10 @@ Add this sidebar theme:
 ```
 #000000,#444444,#333333,#FFFFFF,#444444,#FFFFFF,#9cbc73,#cc807c
 ```
+Or this one for a pure black sidebar:
+```
+#000000,#444444,#333333,#FFFFFF,#444444,#FFFFFF,#9cbc73,#cc807c
+```
 
 ### Reverting
 
@@ -46,6 +50,23 @@ makeitdark.py makeitlight
 ### Slack Updates
 
 When Slack updates it will overwrite the installed dark theme. When this happens just re-run the tool to make it dark again.
+
+### Testing
+
+To make quicker on-the-fly and inspect elements in the main Slack app,
+
+In your terminal, type:
+```
+export SLACK_DEVELOPER_MENU=true
+open /Applications/Slack.app
+```
+Inside the Slack app, right click anything and select "Inspect element". Paste the following in the console to load up new styles. Change the URI to your own if you're making updates.
+```
+var cssURI = 'https://raw.githubusercontent.com/adamnel/makeitdark/master/dark-theme.css';
+$.get(cssURI).then(function(css) {
+   $('<style />').text(css).appendTo('body')
+});
+```
 
 ## Authors
 

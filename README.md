@@ -33,7 +33,7 @@ python makeitdark.py
 
 Add this sidebar theme:
 ```
-#000000,#444444,#333333,#FFFFFF,#444444,#FFFFFF,#9cbc73,#cc807c
+#202124,#444444,#333333,#FFFFFF,#444444,#FFFFFF,#9cbc73,#cc807c
 ```
 Or this one for a pure black sidebar:
 ```

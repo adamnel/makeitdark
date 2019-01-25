@@ -1,7 +1,10 @@
 :root {
     /* Modify these to change your theme colors: */
     --adamnel-background: #000000;
+    --adamnel-background--lighter: #202124;
+    --adamnel-background--lighter--highlight: #333333;
     --adamnel-blue: #7fa8eb;
+    --adamnel-blue--highlight: #698fcc;
     --adamnel-red: #cc807c;
     --adamnel-green: #9cbc73;
     --adamnel-yellow: #eed092;
@@ -1512,13 +1515,13 @@
       color: inherit !important;
   }
   #team_menu .presence.active {
-      color: #90d6ce;
+      color: var(--adamnel-green);
   }
   #team_menu .presence.offline {
-      color: #e16170;
+      color: var(--adamnel-red);
   }
   #team_menu .presence.trouble {
-      color: #ffa633;
+      color: var(--adamnel-yellow);
   }
   #team_menu_user {
       color: #b7b1aa;
@@ -1527,10 +1530,10 @@
       color: #ffffff;
   }
   #presence.active::before {
-      color: #90d6ce;
+      color: var(--adamnel-cyan);
   }
   #presence.away::before, #presence.connecting::before {
-      color: #b7b1aa;
+      color: var(--adamnel-yellow);
   }
   .client_header_icon {
       background-image: url("https://a.slack-edge.com/cadd/img/header_icons.png");
@@ -7008,7 +7011,7 @@
   }
   #messages_unread_status:hover {
       background-image: initial;
-      background-color: #1e6189;
+      background-color: var(--adamnel-blue--hilight);
   }
   #messages_unread_status:hover .clear_unread_messages {
       background-image: initial;
@@ -7016,7 +7019,7 @@
   }
   #messages_unread_status:hover .clear_unread_messages:hover {
       background-image: initial;
-      background-color: #1e6189;
+      background-color: var(--adamnel-blue--hilight);
   }
   #messages_unread_status.quiet:hover .clear_unread_messages {
       background-image: inherit;
@@ -11038,7 +11041,7 @@
   }
   #messages_unread_status {
       background-image: initial;
-      background-color: #0d78a6;
+      background-color: var(--adamnel-blue);
   }
   .channel_archive_messages.card .col:first-child {
       border-right-color: #383838;
@@ -11739,13 +11742,13 @@
   }
   ts-jumper .p-jumper__help {
       background-image: initial;
-      background-color: var(--adamnel-background);
+      background-color: var(--adamnel-background--lighter);
       border-top-color: initial;
   }
   ts-jumper ts-jumper-container {
       box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 10px;
       background-image: initial;
-      background-color: var(--adamnel-background);
+      background-color: var(--adamnel-background--lighter);
   }
   ts-jumper ts-jumper-shortcut-banner {
       color: #bdb9b2;
@@ -11761,6 +11764,7 @@
       border-left-color: #383838;
   }
   ts-jumper input[type="text"], ts-jumper input[type="text"]:focus {
+      background-color: var(--adamnel-background--lighter);
       color: #d6d4cf;
       border-top-color: #48484a !important;
       border-right-color: #48484a !important;
@@ -11799,7 +11803,7 @@
   ts-jumper ol li .unread_count {
       color: #ffffff;
       background-image: initial;
-      background-color: #961c2a;
+      background-color: var(--adamnel-red);
       text-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px;
   }
   ts-jumper ol li .frecency_score {
@@ -11810,15 +11814,15 @@
   }
   ts-jumper ol li.highlighted:not(.no_hover), ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) {
       background-image: initial;
-      background-color: #176a9a;
+      background-color: var(--adamnel-background--lighter--highlight);
       color: #ffffff;
   }
   ts-jumper ol li.highlighted:not(.no_hover) .c-unified_member__current-status, ts-jumper ol li.highlighted:not(.no_hover) .c-unified_member__current-status::before, ts-jumper ol li.highlighted:not(.no_hover) .c-unified_member__display-name, ts-jumper ol li.highlighted:not(.no_hover) .c-unified_member__name, ts-jumper ol li.highlighted:not(.no_hover) .c-unified_member__secondary-name, ts-jumper ol li.highlighted:not(.no_hover) .channel_archived, ts-jumper ol li.highlighted:not(.no_hover) .channel_name, ts-jumper ol li.highlighted:not(.no_hover) .channel_not_member, ts-jumper ol li.highlighted:not(.no_hover) .current_status, ts-jumper ol li.highlighted:not(.no_hover) .frecency_score, ts-jumper ol li.highlighted:not(.no_hover) .member_deleted, ts-jumper ol li.highlighted:not(.no_hover) .member_real_name, ts-jumper ol li.highlighted:not(.no_hover) .member_real_name + .member_preferred_name, ts-jumper ol li.highlighted:not(.no_hover) .member_real_name + .member_username, ts-jumper ol li.highlighted:not(.no_hover) .member_team_name, ts-jumper ol li.highlighted:not(.no_hover) .member_username, ts-jumper ol li.highlighted:not(.no_hover) .member_username + .member_real_name, ts-jumper ol li.highlighted:not(.no_hover) .p-jumper__small_text, ts-jumper ol li.highlighted:not(.no_hover) .p-jumper__workspace_name, ts-jumper ol li.highlighted:not(.no_hover) .team_username, ts-jumper ol li.highlighted:not(.no_hover) .view_name, ts-jumper ol li.highlighted:not(.no_hover) i.presence_icon, ts-jumper ol li.highlighted:not(.no_hover) ts-icon, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .c-unified_member__current-status, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .c-unified_member__current-status::before, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .c-unified_member__display-name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .c-unified_member__name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .c-unified_member__secondary-name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .channel_archived, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .channel_name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .channel_not_member, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .current_status, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .frecency_score, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .member_deleted, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .member_real_name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .member_real_name + .member_preferred_name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .member_real_name + .member_username, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .member_team_name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .member_username, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .member_username + .member_real_name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .p-jumper__small_text, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .p-jumper__workspace_name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .team_username, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) .view_name, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) i.presence_icon, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover) ts-icon {
       color: #ffffff;
   }
   ts-jumper ol li.highlighted:not(.no_hover).p-jumper__row .unread_count, ts-jumper ol:not(.keyboard_active) li:hover:not(.no_hover).p-jumper__row .unread_count {
-      background-color: var(--adamnel-background);
-      color: #59b2e6;
+      background-color: var(--adamnel-red);
+      color: #ffffff;
   }
   ts-jumper ol li.highlighted.deleted_count, ts-jumper ol:not(.keyboard_active) li:hover.deleted_count {
       background-image: initial;
@@ -12501,11 +12505,11 @@
   }
   #threads_view_banner.messages_banner {
       background-image: initial;
-      background-color: #0d78a6;
+      background-color: var(--adamnel-blue);
   }
   #threads_view_banner.messages_banner:hover {
       background-image: initial;
-      background-color: #1e6189;
+      background-color: var(--adamnel-blue--hilight);
   }
   #threads_view_banner.messages_banner:hover .clear_unread_messages {
       background-image: initial;
@@ -12758,7 +12762,7 @@
       color: #d6d4cf;
   }
   .c-unified_member .presence.active {
-      color: #8acbb1;
+      color: var(--adamnel-green);
   }
   .c-team--linked, .c-unified_member--linked, .no_touch a.c-team--linked {
       text-decoration-color: initial;
@@ -15727,7 +15731,7 @@
       color: #d6d4cf;
   }
   .c-unified_member .presence.active {
-      color: #8acbb1;
+      color: var(--adamnel-green);
   }
   .c-team--linked, .c-unified_member--linked, .no_touch a.c-team--linked {
       text-decoration-color: initial;
@@ -19886,7 +19890,7 @@
       color: #bdb9b2;
   }
   .c-search_autocomplete__suggestion_item .c-search_autocomplete__unread_count {
-      background-color: #961c2a;
+      background-color: var(--adamnel-red);
       color: #ffffff;
       text-shadow: none;
   }
@@ -19903,8 +19907,8 @@
       color: #ffffff;
   }
   .c-search_autocomplete__suggestion_item--selected .c-search_autocomplete__unread_count {
-      background-color: var(--adamnel-background);
-      color: #60c1fb;
+      background-color: #ffffff;
+      color: var(--adamnel-background);
   }
   .c-search_autocomplete__suggestion_item--selected .c-channel_name__team_name {
       color: #ffffff;
@@ -20788,12 +20792,12 @@
   }
   .p-message_pane__unread_banner {
       background-image: initial;
-      background-color: #0d78a6;
+      background-color: var(--adamnel-blue);
       color: #ffffff;
   }
   .p-message_pane__unread_banner__banner:hover {
       background-image: initial;
-      background-color: #1e6189;
+      background-color: var(--adamnel-blue--hilight);
   }
   .p-message_pane__unread_banner__msg {
       text-shadow: rgba(0, 0, 0, 0.15) 0px 1px;
@@ -20806,11 +20810,11 @@
   }
   .p-message_pane__unread_banner__close:hover {
       background-image: initial;
-      background-color: #1e6189;
+      background-color: var(--adamnel-blue--hilight);
   }
   .p-message_pane__unread_banner__close--detached {
       background-image: initial;
-      background-color: #0d78a6;
+      background-color: var(--adamnel-blue);
       border-left-color: #216a95;
   }
   .p-archives_banner {
@@ -21604,11 +21608,11 @@
       color: #d9d7d2;
   }
   #team_menu #presence.active::before {
-      color: #3f9ff7;
+      color: var(--adamnel-green);
   }
   ts-jumper ol li .unread_count {
       background-image: initial;
-      background-color: #074cad;
+      background-color: var(--adamnel-red);
   }
   #team_menu {
       text-shadow: none !important;

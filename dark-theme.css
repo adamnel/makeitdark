@@ -20757,10 +20757,10 @@
       border-top-color: var(--adamnel-border--disabled);
   }
   .c-message_list__unread_divider__separator {
-      border-top-color: var(--adamnel-red);
-      border-right-color: var(--adamnel-red);
-      border-bottom-color: var(--adamnel-red);
-      border-left-color: var(--adamnel-red);
+      border-top-color: var(--adamnel-magenta);
+      border-right-color: var(--adamnel-magenta);
+      border-bottom-color: var(--adamnel-magenta);
+      border-left-color: var(--adamnel-magenta);
   }
   .c-message_list__unread_divider__label {
       background-image: initial;
@@ -20770,7 +20770,7 @@
       border-bottom-color: transparent;
       border-left-color: transparent;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 2px;
-      color: #e16170;
+      color: var(--adamnel-magenta);
   }
   .c-message_list__spinner {
       color: #b8b3ac;

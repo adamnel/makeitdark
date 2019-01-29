@@ -5220,7 +5220,7 @@
   }
   .menu ul li.highlighted a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) {
       background-image: initial;
-      background-color: var(--adamnel-blue);
+      background-color: var(--adamnel-background--lighter--highlight);
       color: #ffffff;
   }
   .menu ul li.highlighted a:not(.inline_menu_link) .menu_item_details, .menu ul li.highlighted a:not(.inline_menu_link) .prefix, .menu ul li.highlighted a:not(.inline_menu_link) i, .menu ul li.highlighted a:not(.inline_menu_link) ts-icon, .menu ul li.highlighted a:not(.inline_menu_link).delete_link, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) .menu_item_details, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) .prefix, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) i, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) ts-icon, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link).delete_link, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) .menu_item_details, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) .prefix, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) i, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) ts-icon, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link).delete_link {
@@ -6655,11 +6655,11 @@
       color: #bdb9b2;
   }
   .channel_page_member_row:hover {
-      background-color: #082538;
-      border-top-color: #145b83;
-      border-right-color: #145b83;
-      border-bottom-color: #145b83;
-      border-left-color: #145b83;
+      background-color: var(--adamnel-background--lighter--highlight);
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
   }
   .pinned_item {
       border-top-color: rgba(102, 102, 102, 0.09);
@@ -10875,7 +10875,7 @@
   }
   .inline_file_upload.active, .inline_file_upload.focus-ring, .inline_file_upload:focus, .inline_file_upload:hover {
       background-image: initial;
-      background-color: #2e6a4f;
+      background-color: var(--adamnel-green);
       border-top-color: var(--adamnel-green);
       border-right-color: var(--adamnel-green);
       border-bottom-color: var(--adamnel-green);
@@ -11160,11 +11160,12 @@
       border-left-color: var(--adamnel-border);
   }
   ts-message.message--focus .action_hover_container {
+      background-color: var(--adamnel-background--lighter);
       box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
-      border-top-color: rgba(102, 102, 102, 0.3);
-      border-right-color: rgba(102, 102, 102, 0.3);
-      border-bottom-color: rgba(102, 102, 102, 0.3);
-      border-left-color: rgba(102, 102, 102, 0.3);
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
   }
   #msgs_div ts-thread:not(.expanded) {
       background-image: initial;
@@ -14732,7 +14733,7 @@
       color: #bdb9b2;
   }
   .c-menu_item--standalone:hover, .c-menu_item--standalone:hover:link, .c-menu_item--standalone:hover:visited, .c-menu_item__button--highlighted, .c-menu_item__button--highlighted:link, .c-menu_item__button--highlighted:visited, .no_touch a.c-menu_item__button--highlighted, .no_touch a.c-menu_item__button--highlighted:link, .no_touch a.c-menu_item__button--highlighted:visited {
-      background-color: #0576b9;
+      background-color: var(--adamnel-background--lighter);
       color: #ffffff;
       text-decoration-color: initial;
   }
@@ -19909,7 +19910,7 @@
       color: #ffffff;
   }
   .c-search_autocomplete__suggestion_item--selected .c-unified_member .c-app_label, .c-search_autocomplete__suggestion_item--selected .token {
-      background-color: var(--adamnel-blue);
+      background-color: var(--adamnel-background--lighter--highlight);
       color: #ffffff;
   }
   .c-search_autocomplete__suggestion_item--selected .c-search_autocomplete__unread_count {

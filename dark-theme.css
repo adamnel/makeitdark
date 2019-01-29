@@ -7,6 +7,7 @@
     --adamnel-border--active: #67696b;
     --adamnel-border--disabled: #333333;
     --adamnel-blue: #7fa8eb;
+    --adamnel-blue--bright: #95c7ff;
     --adamnel-blue--highlight: #698fcc;
     --adamnel-red: #cc807c;
     --adamnel-green: #9cbc73;
@@ -1620,10 +1621,11 @@
       color: #bdb9b2;
   }
   #message_edit_form .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_circle_fill, #message_edit_form .current_status_emoji_picker:focus .ts_icon_circle_fill, #message_edit_form .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_circle_fill, #message_edit_form .emo_menu.active .ts_icon_circle_fill, #message_edit_form .emo_menu:focus:not(.focus-ring) .ts_icon_circle_fill, #message_edit_form .emo_menu:hover .ts_icon_circle_fill, #msg_form .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_circle_fill, #msg_form .current_status_emoji_picker:focus .ts_icon_circle_fill, #msg_form .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_circle_fill, #msg_form .emo_menu.active .ts_icon_circle_fill, #msg_form .emo_menu:focus:not(.focus-ring) .ts_icon_circle_fill, #msg_form .emo_menu:hover .ts_icon_circle_fill, .current_status_container .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_circle_fill, .current_status_container .current_status_emoji_picker:focus .ts_icon_circle_fill, .current_status_container .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_circle_fill, .current_status_container .emo_menu.active .ts_icon_circle_fill, .current_status_container .emo_menu:focus:not(.focus-ring) .ts_icon_circle_fill, .current_status_container .emo_menu:hover .ts_icon_circle_fill, .current_status_input_container .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_circle_fill, .current_status_input_container .current_status_emoji_picker:focus .ts_icon_circle_fill, .current_status_input_container .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_circle_fill, .current_status_input_container .emo_menu.active .ts_icon_circle_fill, .current_status_input_container .emo_menu:focus:not(.focus-ring) .ts_icon_circle_fill, .current_status_input_container .emo_menu:hover .ts_icon_circle_fill, .inline_message_input_container .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_circle_fill, .inline_message_input_container .current_status_emoji_picker:focus .ts_icon_circle_fill, .inline_message_input_container .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_circle_fill, .inline_message_input_container .emo_menu.active .ts_icon_circle_fill, .inline_message_input_container .emo_menu:focus:not(.focus-ring) .ts_icon_circle_fill, .inline_message_input_container .emo_menu:hover .ts_icon_circle_fill, .share_channel_modal_contents .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_circle_fill, .share_channel_modal_contents .current_status_emoji_picker:focus .ts_icon_circle_fill, .share_channel_modal_contents .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_circle_fill, .share_channel_modal_contents .emo_menu.active .ts_icon_circle_fill, .share_channel_modal_contents .emo_menu:focus:not(.focus-ring) .ts_icon_circle_fill, .share_channel_modal_contents .emo_menu:hover .ts_icon_circle_fill {
-      color: #ffd633;
+      color: var(--adamnel-background);
   }
   #message_edit_form .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_happy_smile, #message_edit_form .current_status_emoji_picker:focus .ts_icon_happy_smile, #message_edit_form .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_happy_smile, #message_edit_form .emo_menu.active .ts_icon_happy_smile, #message_edit_form .emo_menu:focus:not(.focus-ring) .ts_icon_happy_smile, #message_edit_form .emo_menu:hover .ts_icon_happy_smile, #msg_form .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_happy_smile, #msg_form .current_status_emoji_picker:focus .ts_icon_happy_smile, #msg_form .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_happy_smile, #msg_form .emo_menu.active .ts_icon_happy_smile, #msg_form .emo_menu:focus:not(.focus-ring) .ts_icon_happy_smile, #msg_form .emo_menu:hover .ts_icon_happy_smile, .current_status_container .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_happy_smile, .current_status_container .current_status_emoji_picker:focus .ts_icon_happy_smile, .current_status_container .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_happy_smile, .current_status_container .emo_menu.active .ts_icon_happy_smile, .current_status_container .emo_menu:focus:not(.focus-ring) .ts_icon_happy_smile, .current_status_container .emo_menu:hover .ts_icon_happy_smile, .current_status_input_container .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_happy_smile, .current_status_input_container .current_status_emoji_picker:focus .ts_icon_happy_smile, .current_status_input_container .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_happy_smile, .current_status_input_container .emo_menu.active .ts_icon_happy_smile, .current_status_input_container .emo_menu:focus:not(.focus-ring) .ts_icon_happy_smile, .current_status_input_container .emo_menu:hover .ts_icon_happy_smile, .inline_message_input_container .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_happy_smile, .inline_message_input_container .current_status_emoji_picker:focus .ts_icon_happy_smile, .inline_message_input_container .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_happy_smile, .inline_message_input_container .emo_menu.active .ts_icon_happy_smile, .inline_message_input_container .emo_menu:focus:not(.focus-ring) .ts_icon_happy_smile, .inline_message_input_container .emo_menu:hover .ts_icon_happy_smile, .share_channel_modal_contents .current_status_emoji_picker.active .current_status_empty_emoji .ts_icon_happy_smile, .share_channel_modal_contents .current_status_emoji_picker:focus .ts_icon_happy_smile, .share_channel_modal_contents .current_status_emoji_picker:hover .current_status_empty_emoji .ts_icon_happy_smile, .share_channel_modal_contents .emo_menu.active .ts_icon_happy_smile, .share_channel_modal_contents .emo_menu:focus:not(.focus-ring) .ts_icon_happy_smile, .share_channel_modal_contents .emo_menu:hover .ts_icon_happy_smile {
-      color: rgba(214, 212, 207, 0.6);
+      /* color: rgba(214, 212, 207, 0.6); */
+      color: var(--adamnel-yellow);
   }
   #primary_file_button {
       border-top-color: var(--adamnel-border--disabled);
@@ -1637,7 +1639,7 @@
   }
   #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover {
       background-image: initial;
-      background-color: #2e6a4f;
+      background-color: var(--adamnel-green);
       color: #ffffff;
       border-top-color: var(--adamnel-green);
       border-right-color: var(--adamnel-green);
@@ -6151,10 +6153,10 @@
       color: inherit;
   }
   #msg_input {
-      border-top-color: rgba(72, 72, 74, 0.7);
-      border-right-color: rgba(72, 72, 74, 0.7);
-      border-bottom-color: rgba(72, 72, 74, 0.7);
-      border-left-color: rgba(72, 72, 74, 0.7);
+      border-top-color: var(--adamnel-border);
+      border-right-color: var(--adamnel-border);
+      border-bottom-color: var(--adamnel-border);
+      border-left-color: var(--adamnel-border);
       outline-color: initial;
       background-image: initial;
       background-color: var(--adamnel-background);
@@ -6165,10 +6167,10 @@
       color: #e8e7e3;
   }
   #msg_input + #primary_file_button:not(:hover):not(.active) {
-      border-top-color: rgba(72, 72, 74, 0.7);
-      border-right-color: rgba(72, 72, 74, 0.7);
-      border-bottom-color: rgba(72, 72, 74, 0.7);
-      border-left-color: rgba(72, 72, 74, 0.7);
+      border-top-color: var(--adamnel-border);
+      border-right-color: var(--adamnel-border);
+      border-bottom-color: var(--adamnel-border);
+      border-left-color: var(--adamnel-border);
   }
   #msg_input + #primary_file_button.focus-ring:not(:hover):not(.active) {
       border-top-color: var(--adamnel-green);
@@ -6194,10 +6196,10 @@
       background-color: rgba(39, 44, 53, 0.07) !important;
   }
   #msg_input.disabled, #msg_input.ql-disabled {
-      border-top-color: #343434;
-      border-right-color: #343434;
-      border-bottom-color: #343434;
-      border-left-color: #343434;
+      border-top-color: var(--adamnel-border--disabled);
+      border-right-color: var(--adamnel-border--disabled);
+      border-bottom-color: var(--adamnel-border--disabled);
+      border-left-color: var(--adamnel-border--disabled);
       background-color: var(--adamnel-background);
       color: #b9b4ac;
   }
@@ -15899,10 +15901,10 @@
       color: var(--adamnel-blue);
   }
   .c-texty_input__button:hover .c-texty_input__button_icon--emoji_background {
-      color: #ffd633;
+      color: var(--adamnel-background);
   }
   .c-texty_input__button:hover .c-texty_input__button_icon--emoji_active {
-      color: rgba(214, 212, 207, 0.6);
+      color: var(--adamnel-yellow);
   }
   .p-app_profile_card__container {
       box-shadow: rgba(39, 44, 53, 0.12) 0px 5px 10px;
@@ -21235,15 +21237,15 @@
   .p-message_input .p-message_input_plus {
       background-image: initial;
       background-color: var(--adamnel-background);
-      border-top-color: var(--adamnel-border--disabled);
-      border-right-color: var(--adamnel-border--disabled);
-      border-bottom-color: var(--adamnel-border--disabled);
-      border-left-color: var(--adamnel-border--disabled);
+      border-top-color: var(--adamnel-border);
+      border-right-color: var(--adamnel-border);
+      border-bottom-color: var(--adamnel-border);
+      border-left-color: var(--adamnel-border);
       color: #b8b3ac;
   }
   .p-message_input .p-message_input_plus.p-message_input_plus--active, .p-message_input .p-message_input_plus:hover {
       background-image: initial;
-      background-color: rgba(0, 137, 82, 0.8);
+      background-color: var(--adamnel-green);
       border-top-color: var(--adamnel-border);
       border-right-color: var(--adamnel-border);
       border-bottom-color: var(--adamnel-border);
@@ -21252,6 +21254,7 @@
   }
   .p-message_input .p-message_input_field {
       background-color: var(--adamnel-background);
+      border-color: var(--adamnel-border);
       border-left-color: initial;
   }
   .p-message_input .p-message_input_field.focus ~ .p-message_input_plus:not(:hover) {

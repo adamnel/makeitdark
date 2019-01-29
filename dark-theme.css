@@ -5180,7 +5180,7 @@
   .menu {
       color: #d6d4cf;
       background-image: initial;
-      background-color: var(--adamnel-background);
+      background-color: var(--adamnel-background--lighter);
       box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px 1px, rgba(0, 0, 0, 0.12) 0px 4px 12px 0px;
   }
   .menu ul li.divider {
@@ -5220,7 +5220,7 @@
   }
   .menu ul li.highlighted a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link), .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) {
       background-image: initial;
-      background-color: #0576b9;
+      background-color: var(--adamnel-blue);
       color: #ffffff;
   }
   .menu ul li.highlighted a:not(.inline_menu_link) .menu_item_details, .menu ul li.highlighted a:not(.inline_menu_link) .prefix, .menu ul li.highlighted a:not(.inline_menu_link) i, .menu ul li.highlighted a:not(.inline_menu_link) ts-icon, .menu ul li.highlighted a:not(.inline_menu_link).delete_link, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) .menu_item_details, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) .prefix, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) i, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link) ts-icon, .menu:not(.keyboard_active) ul li:hover:not(.disabled) a:not(.inline_menu_link).delete_link, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) .menu_item_details, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) .prefix, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) i, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link) ts-icon, .menu:not(.keyboard_active) ul li:hover:not(.disabled) button:not(.inline_menu_link).delete_link {

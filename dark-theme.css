@@ -20752,7 +20752,7 @@
   }
   .c-message_list__day_divider__line {
       border-bottom-color: initial;
-      border-top-color: var(--adamnel-border);
+      border-top-color: var(--adamnel-border--disabled);
   }
   .c-message_list__unread_divider__separator {
       border-top-color: var(--adamnel-red);

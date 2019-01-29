@@ -10664,23 +10664,23 @@
       text-decoration-color: initial;
   }
   ts-message .action_hover_container {
-      border-top-color: rgba(102, 102, 102, 0.15);
-      border-right-color: rgba(102, 102, 102, 0.15);
-      border-bottom-color: rgba(102, 102, 102, 0.15);
-      border-left-color: rgba(102, 102, 102, 0.15);
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
   }
   ts-message .action_hover_container:hover {
       box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
-      border-top-color: rgba(102, 102, 102, 0.3);
-      border-right-color: rgba(102, 102, 102, 0.3);
-      border-bottom-color: rgba(102, 102, 102, 0.3);
-      border-left-color: rgba(102, 102, 102, 0.3);
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
   }
   ts-message .action_hover_container .btn_msg_action {
       color: #bdb9b2;
       background-image: initial;
-      background-color: var(--adamnel-background);
-      border-right-color: rgba(102, 102, 102, 0.15);
+      background-color: var(--adamnel-background--lighter);
+      border-right-color: transparent;
   }
   ts-message .action_hover_container .btn_msg_action.msg_action_btn_small.add_handy_rxn {
       border-right-color: transparent;
@@ -19965,16 +19965,16 @@
   .c-message_actions__container {
       background-image: initial;
       background-color: var(--adamnel-background--lighter);
-      border-top-color: rgba(102, 102, 102, 0.15);
-      border-right-color: rgba(102, 102, 102, 0.15);
-      border-bottom-color: rgba(102, 102, 102, 0.15);
-      border-left-color: rgba(102, 102, 102, 0.15);
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
   }
   .c-message_actions__container:hover {
-      border-top-color: rgba(102, 102, 102, 0.3);
-      border-right-color: rgba(102, 102, 102, 0.3);
-      border-bottom-color: rgba(102, 102, 102, 0.3);
-      border-left-color: rgba(102, 102, 102, 0.3);
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
   }
   .c-message_actions__container .c-message_actions__button:last-child {
@@ -19984,7 +19984,7 @@
       border-top-color: initial;
       border-bottom-color: initial;
       border-left-color: initial;
-      border-right-color: rgba(102, 102, 102, 0.15);
+      border-right-color: transparent;
       color: #bdb9b2;
   }
   .c-message_actions__button:hover {

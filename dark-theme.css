@@ -1269,7 +1269,7 @@
   .tooltip-inner {
       color: #ffffff;
       text-decoration-color: initial;
-      background-color: #000000;
+      background-color: var(--adamnel-background--lighter);
   }
   .tooltip-arrow {
       border-top-color: transparent;
@@ -1278,19 +1278,19 @@
       border-left-color: transparent;
   }
   .tooltip.top .tooltip-arrow, .tooltip.top-left .tooltip-arrow {
-      border-top-color: #666666;
+      border-top-color: var(--adamnel-background--lighter;
   }
   .tooltip.right .tooltip-arrow {
-      border-right-color: #666666;
+      border-right-color: var(--adamnel-background--lighter;
   }
   .tooltip.left .tooltip-arrow {
-      border-left-color: #666666;
+      border-left-color: var(--adamnel-background--lighter;
   }
   .tooltip.bottom .tooltip-arrow {
-      border-bottom-color: #666666;
+      border-bottom-color: var(--adamnel-background--lighter;
   }
   .modal-backdrop {
-      background-color: #000000;
+      background-color: var(--adamnel-background--lighter;
   }
   .modal {
       background-color: var(--adamnel-background);

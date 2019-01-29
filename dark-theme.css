@@ -73,11 +73,11 @@
       color: #b9b4ac;
   }
   ::selection {
-      background-color: #005ccc;
+      background-color: var(--adamnel-cyan);
       color: #ffffff;
   }
   ::-moz-selection {
-      background-color: #005ccc;
+      background-color: var(--adamnel-cyan);
       color: #ffffff;
   }
   input:-webkit-autofill,
@@ -10839,7 +10839,7 @@
   }
   .plastic_contenteditable .internal_member_link::selection, .plastic_contenteditable .internal_user_group_link::selection {
       background-image: initial;
-      background-color: #0576b9;
+      background-color: var(--adamnel-cyan);
       color: #ffffff;
   }
   .comment .mention, .ql-editor .mention, ts-message .mention {
